@@ -7,7 +7,7 @@ Pass Through NonSizing Optimizer
 WARNING: [VRFC 10-3291] enum literal 'DBG_SB' width (3) must match enum width (4) [D:/project_RV32I/RV32I/RV32I.srcs/sources_1/new/rv32i_control_unit.sv:82]
 WARNING: [VRFC 10-3291] enum literal 'DBG_SH' width (3) must match enum width (4) [D:/project_RV32I/RV32I/RV32I.srcs/sources_1/new/rv32i_control_unit.sv:83]
 WARNING: [VRFC 10-3291] enum literal 'DBG_SW' width (3) must match enum width (4) [D:/project_RV32I/RV32I/RV32I.srcs/sources_1/new/rv32i_control_unit.sv:84]
-WARNING: [VRFC 10-3823] variable 'drdata' might have multiple concurrent drivers [D:/project_RV32I/RV32I/RV32I.srcs/sources_1/new/data_mem.sv:44]
+WARNING: [VRFC 10-3823] variable 'drdata' might have multiple concurrent drivers [D:/project_RV32I/RV32I/RV32I.srcs/sources_1/new/data_mem.sv:43]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis

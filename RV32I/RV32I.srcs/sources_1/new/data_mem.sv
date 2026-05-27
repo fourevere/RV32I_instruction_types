@@ -50,12 +50,12 @@ module data_mem (
                 case (daddr[1])
                     1'b0:
                     drdata = {
-                        {24{data_ram[daddr[31:2]][15]}},
+                        {16{data_ram[daddr[31:2]][15]}},
                         data_ram[daddr[31:2]][15:0]
                     };
                     1'b1:
                     drdata = {
-                        {24{data_ram[daddr[31:2]][31]}},
+                        {16{data_ram[daddr[31:2]][31]}},
                         data_ram[daddr[31:2]][31:16]
                     };
                 endcase
